@@ -12,7 +12,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
             "MOV [register] [register | hexadecimalNumber] \n(desc. Swap resgiter or set value of register. hexadecimalNumber range is from 0 to FF)",
             "XCHG [register] [register] \n(desc. Swap register values)",
             "CLEAR \n(desc. clear terminal screan)",
-            "EXIT  \n(desc. shutdown program)"
+            "EXIT  \n(desc. shutdown program)",
+            "SHOW \n(desc. shows all registers` values)"
         };
 
         static void Main(string[] args)
