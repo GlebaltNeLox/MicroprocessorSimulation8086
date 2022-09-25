@@ -20,9 +20,7 @@ namespace MyApp
         {
             
             if (arr.ContainsKey(secondRegister)) {
-                HexNum temp = arr[firstRegister];
                 arr[firstRegister] = arr[secondRegister];
-                arr[secondRegister] = temp;
             }
             else
             {
