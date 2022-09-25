@@ -9,7 +9,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
 
         static string[] arrOfCommands = {
-            "MOV [register] [register | hexadecimalNumber] \n(desc. Swap resgiter or set value of register. hexadecimalNumber range is from 0 to FF)",
+            "MOV [register] [register | hexadecimalNumber] \n(desc. Copies one register value and pastes it into another. hexadecimalNumber range is from 0 to FF)",
             "XCHG [register] [register] \n(desc. Swap register values)",
             "CLEAR \n(desc. clear terminal screan)",
             "EXIT  \n(desc. shutdown program)",
