@@ -20,7 +20,7 @@ namespace MyApp
             }
 
         }
-        public HexNum(string hexnum)
+        public HexNum(string hexnum) : this()
         {
             hexNum = hexnum ?? "0";
         }
